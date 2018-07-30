@@ -22,7 +22,7 @@ public class Testing {
 	  }
 	  @BeforeClass
 	  public void beforeClass() {
-		  //System.setProperty("webdriver.gecko.driver", "E:\\geckodriver-v0.20.1-win64\\geckodriver.exe");
+		  System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
 		  driver= new FirefoxDriver();
 		  driver.get("ec2-18-216-135-250.us-east-2.compute.amazonaws.com/TestWebapp");
 		  
